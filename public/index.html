@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skill Tree Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Skill Tree Analyzer</h1>
+    <p class="instructions">Click any skill name to view its prerequisites. Each skill links to an external learning resource.</p>
+    <div id="skills"></div>
+    <div>
+      <button onclick="showCheckedPrereqs()">Show Prerequisites</button>
+    </div>
+    <div id="suggestions"></div>
+    <div id="prereq-view"></div>
+  </div>
+  <footer>
+    <hr>
+    <span>Learn more about these skills:
+      <br>
+      <a href="https://roadmap.sh" target="_blank">Skill Roadmaps</a> |
+      <a href="https://www.freecodecamp.org" target="_blank">Free Learning Resources</a>
+    </span>
+  </footer>
+</body>
+</html>
