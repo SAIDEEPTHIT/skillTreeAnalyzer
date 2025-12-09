@@ -1,11 +1,10 @@
 # Skill Tree Analyzer
 
-Skill Tree Analyzer is a simple web app that helps students explore course/skill prerequisites. Selecting a skill shows its required skills and suggests possible next skills to learn.
+Skill Tree Analyzer is a simple web app that helps students explore course/skill prerequisites. Selecting a skill shows its required skills to learn.
 
 ## Features
 - Interactive skill list with checkboxes
 - Show prerequisites for any selected skill
-- Suggestions panel for next possible skills
 - Minimal Node.js backend + ArangoDB config for storing skill relationships
 
 ## Tech Stack
